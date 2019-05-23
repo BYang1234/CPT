@@ -13,7 +13,7 @@ def update(delta_time):
 
 def on_draw():
     arcade.start_render()
-    arcade.draw_text("GEOMETRY JUMP", WIDTH / 2 - 160, 400, arcade.color.BLACK, 30)
+    arcade.draw_text("GEOMETRY DASH", WIDTH / 2 - 160, 400, arcade.color.BLACK, 30)
     arcade.draw_xywh_rectangle_filled(button_1[0], button_1[1], button_1[2], button_1[3], arcade.color.BLACK)
     arcade.draw_text("START GAME", WIDTH / 2 - 85, HEIGHT / 2 - 20, arcade.color.WHITE, 20)
 
